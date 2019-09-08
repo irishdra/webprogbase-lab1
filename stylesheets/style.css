@@ -1,0 +1,89 @@
+html
+{
+    background: #ffdd99;
+}
+
+.clearfix
+{
+    width: 1200px;
+    clear: both;
+}
+
+.logo
+{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+    text-align: center;
+}
+
+li
+{
+    color: black;
+}
+
+.wrap
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar
+{
+    float: left;
+    width: 30%;
+    margin: 0 1%;
+}
+
+.content
+{
+    float: left;
+    width: 65%;
+    margin: 0 1%;
+}
+
+nav a
+{
+    font-size: 15px;
+    color: darkblue;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.photo
+{
+    background: white;
+    height: 200px;
+    float: left;
+    width: 200px;
+    margin: 0 1%;
+}
+
+.info
+{
+    float: left;
+    width: 68%;
+    height: 200px;
+    margin: 0 1%;
+}
+
+.users
+{
+    position: relative;
+    float: left;
+    left: 1%;
+}
