@@ -1,0 +1,49 @@
+.clearfix
+{
+    width: 100%;
+    clear: both;
+}
+
+.wrap
+{
+    position: relative;
+    display: block;
+    width: 53%;
+    float: right;
+}
+
+.wrap h1
+{
+    text-align: center;
+    color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wrap .intro
+{
+    font-size: 18px;
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+}
+
+nav a
+{
+    font-size: 15px;
+    color: grey;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.sidebar
+{
+    position: absolute;
+    top: 150px;
+    left: 4%;
+    font-family: 'Courier New', Courier, monospace;
+}
