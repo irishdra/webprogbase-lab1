@@ -20,7 +20,7 @@ h1
 {
     font-family: 'Courier New', Courier, monospace;
     color: darkblue;
-    text-align: center;
+    text-align: left;
 }
 
 li
@@ -91,4 +91,26 @@ nav a:hover
 td a
 {
     color: darkblue;
+}
+
+.logo .photo
+{
+    background: #ffdd99;
+    text-align: right;
+    float: left;
+    width: 38%;
+    height: 29%;
+    margin: 0 1%;
+}
+
+.name
+{
+    float: left;
+    width: 58%;
+    margin: 0 1%;
+}
+
+.logo img
+{
+    border-radius: 200px;
 }

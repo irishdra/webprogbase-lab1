@@ -14,7 +14,7 @@
 
 .wrap h1
 {
-    text-align: center;
+    /* text-align: center; */
     color: darkblue;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -52,4 +52,26 @@ p
 {
     font-family: 'Courier New', Courier, monospace;
     color: black
+}
+
+.logo .photo
+{
+    text-align: right;
+    float: left;
+    width: 38%;
+    height: 29%;
+    margin: 0 1%;
+    border-radius: 200px;
+}
+
+.name
+{
+    float: left;
+    width: 58%;
+    margin: 0 1%;
+}
+
+.logo img
+{
+    border-radius: 200px;
 }
